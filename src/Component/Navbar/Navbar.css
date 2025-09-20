@@ -1,0 +1,58 @@
+
+.bar {
+  position:fixed;
+  display: flex;
+  z-index: 100;
+   background-position: center;
+   gap: 10px;
+   width: 800px;
+   justify-self: center;
+   padding: 20px 50px;
+   top: 50px;
+   border-radius: 50px;
+   text-decoration: none;
+  border: 1px solid white;
+   background: rgba(31, 34, 33, 0.9);
+   
+}
+
+
+ .bar li {
+  
+color: white;
+text-align: center;
+width: 100%;
+background: transparent;
+list-style: none;
+ 
+cursor: pointer;
+padding: auto; 
+
+
+}
+
+ .bar li:hover{
+opacity:0.8;
+
+ }
+
+
+@media (min-width:768px)and (max-width:1024px){
+
+
+.bar {
+  position: absolute;
+  display: flex;
+   background-position: center;
+   width: 582px;
+   justify-self: center;
+   padding: 20px 50px;
+   top: 50px;
+   border-radius: 50px;
+   text-decoration: none;
+  border: 1px solid white;
+   background: rgba(31, 34, 33, 0.9);
+
+
+}
+}

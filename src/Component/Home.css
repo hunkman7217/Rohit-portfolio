@@ -1,0 +1,71 @@
+.Hero{
+display: flex;
+margin-top: 207px;
+gap: 50px;
+padding: 0px 117px 0px 174px;
+
+}
+
+.Hero img{
+  width: 350px;
+  border-radius: 50%;
+  height: 350px;
+}
+/* span */
+#Rohit{
+  color:rgb(244, 180, 26);
+}
+
+#Jobpro{
+  color: rgb(186, 220, 88);
+}
+
+/*  */
+
+
+.intro h1{
+
+  align-items: center;
+  margin-top: 67px;
+  
+}
+
+.intro p{
+  text-align: justify;
+}
+
+@media (min-width:768px) and (max-width:1024px){
+
+.Hero{
+display: flex;
+margin-top: 207px;
+gap: 50px;
+padding: 0px 0px 0px 50px;
+
+}
+
+.Hero img{
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+}
+
+.intro h1{
+
+  align-items: center;
+  margin-top: 28px;
+  font-size:medium;
+  
+}
+
+.intro h3{
+  font-size: small;
+}
+
+.intro p{
+  font-size: small;
+}
+
+
+
+}

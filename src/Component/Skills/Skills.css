@@ -1,0 +1,68 @@
+
+.container h1 {
+
+  text-align: center;
+
+}
+
+.container h5 {
+     color: black;
+  text-align: center;
+  background-color: rgb(67, 226, 244);
+  margin-top: 5px;
+}
+.row{
+  gap: 20px;
+  width: 70%;
+  justify-self: center;
+  
+}
+
+.col:hover{
+  
+  scale: 105%;
+ box-shadow: 10px 10px 10px black;
+
+}
+
+.col {
+  color: rgb(219, 226, 231);
+    align-items: center;
+background-color: aliceblue;
+height: 300px;
+
+}
+
+.col p {
+  background-color: transparent;
+  color: rgb(95, 92, 92);
+  margin-top:10px ;
+}
+
+.list{
+display: flex;
+background-color: transparent;
+justify-content: center;
+
+
+}
+
+.list img{
+  width: 40px;
+  margin-bottom: 5px;
+ background: transparent;
+ 
+}
+
+.list a{
+display: flex;
+background-color: transparent;
+text-decoration: none;
+gap: 5px;
+
+}
+
+.list a:hover{
+  opacity: 0.7;
+  
+}

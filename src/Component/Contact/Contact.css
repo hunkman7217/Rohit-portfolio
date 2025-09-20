@@ -1,0 +1,66 @@
+.contact{
+  background-color: rgb(255,255,255);
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  height: 100px;
+  align-items: center;
+ width: 800px;
+ margin-left: 25%;
+ margin-right: 25%;
+ border-radius: 40px;
+}
+
+.contact img{
+  width: 30px;
+  background-color: transparent;
+  margin-right: 5px;
+
+}
+
+
+
+.contact a button {
+  text-decoration: none;
+background: transparent;
+color: rgb(20, 4, 4);
+}
+
+
+
+.contact .btn1{
+  
+  background-color: transparent;
+
+}
+
+.link{
+  background-color: transparent;
+}
+
+.contact .btn-outline-primary:hover{
+background-color: transparent;
+color: black;
+opacity: 0.7;
+}
+
+.contact .btn-outline-danger:hover{
+  background-color: transparent;
+  color: black;
+  opacity: 0.7;
+}
+
+.contact .btn-outline-dark:hover{
+  background-color: transparent;
+  color: black;
+  opacity: 0.7;
+}
+
+#con{
+  color: orange;
+}
+
+#end{
+
+ color: rgb(186, 220, 88);
+}
