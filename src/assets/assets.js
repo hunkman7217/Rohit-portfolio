@@ -24,6 +24,10 @@ import project4 from './project4.JPG'
 import github from './github.png'
 import linkedin from './linkedin.png'
 import gmail from './gmail.png'
+import profile12 from './profile12.jpg'
+import profile13 from './profile13.jpg'
+import profile14 from './profile14.jpg'
+
 
 export const assets =  {
  Backimgnav,
@@ -52,4 +56,7 @@ project4,
 github,
 linkedin,
 gmail,
+profile12,
+profile13,
+profile14,
 }

@@ -2,7 +2,7 @@
 .bar {
   position:fixed;
   display: flex;
-  z-index: 100;
+  z-index: 9999;
    background-position: center;
    gap: 10px;
    width: 800px;
@@ -41,7 +41,8 @@ opacity:0.8;
 
 
 .bar {
-  position: absolute;
+    position:fixed;
+    z-index: 9999;
   display: flex;
    background-position: center;
    width: 582px;
@@ -55,4 +56,36 @@ opacity:0.8;
 
 
 }
+}
+
+
+@media (min-width:320px) and (max-width:426px){
+
+.bar {
+  position:fixed;
+  z-index: 9999;
+  display: flex;
+   background-position: center;
+   width: 300px;
+   justify-self: center;
+   padding: 10px 10px;
+   top: 31px;
+   border-radius: 50px;
+   text-decoration: none;
+  border: 1px solid white;
+   background: rgba(31, 34, 33, 0.9);
+   gap: 0px;
+
+}
+
+ .bar li a {
+  font-size: smaller;
+
+
+}
+
+  
+
+
+
 }

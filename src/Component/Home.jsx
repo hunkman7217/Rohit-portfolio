@@ -5,7 +5,7 @@ import "./Home.css";
 function Home() {
   return (
     <div className="Hero">
-      <img src={assets.profile} alt="" />
+      <img src={assets.profile13} alt="" />
       <div className="intro">
         <h1>“Hello, I'm <span id="Rohit">Rohit...</span></h1>
         <h3>-<span id="Jobpro"> A MERN Stack Developer Passionate About Code and Creativity” </span></h3>
