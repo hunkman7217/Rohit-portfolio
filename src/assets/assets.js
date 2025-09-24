@@ -1,7 +1,6 @@
 import Backimgnav from './Backimgnav.gif'
 import Navbar from './Navbar.gif'
 import navbar5 from './navbar5.gif'
-import profile from './profile.jpg'
 import about1gray from './about1gray.gif'
 import about2 from './about2.gif'
 import about3 from './about3.gif'
@@ -33,7 +32,6 @@ export const assets =  {
  Backimgnav,
  Navbar,
  navbar5,
-profile,
 about1gray,
 about2,
 about3,
